@@ -1,0 +1,16 @@
+C:\Users\pedro\source\repos\NAU\bin\Debug\net8.0-windows\NAU.exe
+C:\Users\pedro\source\repos\NAU\bin\Debug\net8.0-windows\NAU.deps.json
+C:\Users\pedro\source\repos\NAU\bin\Debug\net8.0-windows\NAU.runtimeconfig.json
+C:\Users\pedro\source\repos\NAU\bin\Debug\net8.0-windows\NAU.dll
+C:\Users\pedro\source\repos\NAU\bin\Debug\net8.0-windows\NAU.pdb
+C:\Users\pedro\source\repos\NAU\obj\Debug\net8.0-windows\NAU.NAU.resources
+C:\Users\pedro\source\repos\NAU\obj\Debug\net8.0-windows\NAU.csproj.GenerateResource.cache
+C:\Users\pedro\source\repos\NAU\obj\Debug\net8.0-windows\NAU.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\source\repos\NAU\obj\Debug\net8.0-windows\NAU.AssemblyInfoInputs.cache
+C:\Users\pedro\source\repos\NAU\obj\Debug\net8.0-windows\NAU.AssemblyInfo.cs
+C:\Users\pedro\source\repos\NAU\obj\Debug\net8.0-windows\NAU.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\NAU\obj\Debug\net8.0-windows\NAU.dll
+C:\Users\pedro\source\repos\NAU\obj\Debug\net8.0-windows\refint\NAU.dll
+C:\Users\pedro\source\repos\NAU\obj\Debug\net8.0-windows\NAU.pdb
+C:\Users\pedro\source\repos\NAU\obj\Debug\net8.0-windows\NAU.genruntimeconfig.cache
+C:\Users\pedro\source\repos\NAU\obj\Debug\net8.0-windows\ref\NAU.dll

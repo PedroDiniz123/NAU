@@ -1,0 +1,14 @@
+C:\Users\pedro\source\repos\NAU_Financeiro_0.5\NAU_Financeiro_0.5\bin\Debug\NAU_Financeiro_0.5.exe.config
+C:\Users\pedro\source\repos\NAU_Financeiro_0.5\NAU_Financeiro_0.5\bin\Debug\NAU_Financeiro_0.5.exe
+C:\Users\pedro\source\repos\NAU_Financeiro_0.5\NAU_Financeiro_0.5\bin\Debug\NAU_Financeiro_0.5.pdb
+C:\Users\pedro\source\repos\NAU_Financeiro_0.5\NAU_Financeiro_0.5\obj\Debug\NAU_Financeiro_0.5.csproj.AssemblyReference.cache
+C:\Users\pedro\source\repos\NAU_Financeiro_0.5\NAU_Financeiro_0.5\obj\Debug\NAU_Financeiro_0._5.Properties.Resources.resources
+C:\Users\pedro\source\repos\NAU_Financeiro_0.5\NAU_Financeiro_0.5\obj\Debug\NAU_Financeiro_0.5.csproj.GenerateResource.cache
+C:\Users\pedro\source\repos\NAU_Financeiro_0.5\NAU_Financeiro_0.5\obj\Debug\NAU_Financeiro_0.5.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\NAU_Financeiro_0.5\NAU_Financeiro_0.5\obj\Debug\NAU_Financeiro_0.5.exe
+C:\Users\pedro\source\repos\NAU_Financeiro_0.5\NAU_Financeiro_0.5\obj\Debug\NAU_Financeiro_0.5.pdb
+C:\Users\pedro\source\repos\NAU_Financeiro_0.5\NAU_Financeiro_0.5\obj\Debug\NAU_Financeiro_0._5.Notas_Main.resources
+C:\Users\pedro\source\repos\NAU_Financeiro_0.5\NAU_Financeiro_0.5\obj\Debug\NAU_Financeiro_0._5.Atualizar_Nota.resources
+C:\Users\pedro\source\repos\NAU_Financeiro_0.5\NAU_Financeiro_0.5\obj\Debug\NAU_Financeiro_0._5.Adicionar_Nota.resources
+C:\Users\pedro\source\repos\NAU_Financeiro_0.5\NAU_Financeiro_0.5\obj\Debug\NAU_Financeiro_0._5.Apagar_Nota.resources
+C:\Users\pedro\source\repos\NAU_Financeiro_0.5\NAU_Financeiro_0.5\obj\Debug\NAU_Financeiro_0._5.Login.resources
