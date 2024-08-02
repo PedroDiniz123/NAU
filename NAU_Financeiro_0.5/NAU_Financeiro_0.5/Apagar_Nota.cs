@@ -14,33 +14,15 @@ namespace NAU_Financeiro_0._5
 {
     public partial class Apagar_Nota : Form
     {
-        public Apagar_Nota()
+        public Apagar_Nota(int id)
         {
             InitializeComponent();
+            this.id = id;
         }
 
         Nota nota = new Nota();
+        int id;
 
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
-        {
-            int id = (int)numericUpDown1.Value;
-            try
-            {
-                nota = nota.Search(id);
-
-                if (nota != null)
-                {
-                    EntradaData.Value = (DateTime)nota.Data;
-                    EntradaRazao.Text = nota.Razao;
-                    EntradaSetor.Text = nota.Setor;
-                    EntradaValor.Value = Convert.ToDecimal((nota.Valor));
-                }
-            }
-            catch (Exception ex)
-            {
-
-            }
-        }
 
         private void btnSair_Click(object sender, EventArgs e)
         {
@@ -77,6 +59,39 @@ namespace NAU_Financeiro_0._5
                 MessageBox.Show("Nota não apagada.", "Apagar Nota");
                 
             }
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            {
+                int id = (int)numericUpDown1.Value;
+                try
+                {
+                    nota = nota.Search(id);
+
+                    if (nota != null)
+                    {
+                        EntradaData.Value = (DateTime)nota.Data;
+                        EntradaRazao.Text = nota.Razao;
+                        EntradaSetor.Text = nota.Setor;
+                        EntradaValor.Value = Convert.ToDecimal((nota.Valor));
+                        EntradaComplemento.Text = nota.Complemento;
+                        EntradaNumero.Text = nota.Numero.ToString();
+                        TxtTipoNota.Text = nota.Tipo;
+
+                    }
+                }
+                catch (Exception ex)
+                {
+
+                }
+            }
+        }
+
+        private void Apagar_Nota_Load(object sender, EventArgs e)
+        {
+            numericUpDown1.Value = id;
+            numericUpDown1_ValueChanged((object)numericUpDown1.Value, e);
         }
     }
 }

@@ -37,8 +37,16 @@ namespace NAU_Financeiro_0._5
             nota.Data = EntradaData.Value;
             nota.Razao = EntradaRazao.Text;
             nota.Setor = EntradaSetor.Text;
+            nota.Complemento = EntradaComplemento.Text == String.Empty ? " " : EntradaComplemento.Text;
+            nota.Numero = EntradaNumero.Text == String.Empty ? 0 : Convert.ToInt32(EntradaNumero.Text);
             nota.Valor = Convert.ToString(EntradaValor.Value).Replace(".", "").Replace(",", ".");
 
+            String tipo = "Boleto";
+
+            if (BtnRecibo.Checked) tipo = "Recibo";
+            if (BtnNota.Checked) tipo = "Nota Fiscal";
+
+            nota.Tipo = tipo;
 
             // Inserting Data into DAtabase uing the method we created in previous episode
             bool success = nota.Insert(nota);
@@ -64,6 +72,16 @@ namespace NAU_Financeiro_0._5
         private void btnSair_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

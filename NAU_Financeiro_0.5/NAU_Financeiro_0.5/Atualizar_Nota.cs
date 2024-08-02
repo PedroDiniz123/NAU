@@ -17,12 +17,15 @@ namespace NAU_Financeiro_0._5
 {
     public partial class Atualizar_Nota : Form
     {
-        public Atualizar_Nota()
+        public Atualizar_Nota(int id)
         {
             InitializeComponent();
+            this.id = id;
         }
 
         Nota nota = new Nota();
+        int id;
+
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             int id = (int)numericUpDown1.Value;
@@ -32,10 +35,17 @@ namespace NAU_Financeiro_0._5
 
                 if (nota != null)
                 {
+                    string tipo = nota.Tipo;
+                    if (tipo == "Nota Fiscal") BtnNota.Checked = true;
+                    if (tipo == "Recibo") BtnRecibo.Checked = true;
+                    if (tipo == "Boleto") BtnBoleto.Checked = true;
+
                     EntradaData.Value = (DateTime) nota.Data;
                     EntradaRazao.Text = nota.Razao;
                     EntradaSetor.Text = nota.Setor;
                     EntradaValor.Value = Convert.ToDecimal((nota.Valor));
+                    EntradaNumero.Text = nota.Numero.ToString();
+                    EntradaComplemento.Text = nota.Complemento;
                 }
             }
             catch (Exception ex)
@@ -53,6 +63,15 @@ namespace NAU_Financeiro_0._5
                 nota.Razao = EntradaRazao.Text;
                 nota.Setor = EntradaSetor.Text;
                 nota.Valor = Convert.ToString(EntradaValor.Value).Replace(".", "").Replace(",", ".");
+                nota.Numero = Convert.ToInt32(EntradaNumero.Text);
+                nota.Complemento = EntradaComplemento.Text;
+
+                string tipo = "Nota Fiscal";
+
+                if (BtnBoleto.Checked) tipo = "Boleto";
+                if (BtnRecibo.Checked) tipo = "Recibo";
+
+                nota.Tipo = tipo;
 
                 bool success = nota.Update(nota);
 
@@ -82,6 +101,12 @@ namespace NAU_Financeiro_0._5
         private void btnSair_Click(object sender, EventArgs e)
         {
             Close(); return;
+        }
+
+        private void Atualizar_Nota_Load(object sender, EventArgs e)
+        {
+            numericUpDown1.Value = id;
+            numericUpDown1_ValueChanged(numericUpDown1.Value, e);
         }
     }
 }

@@ -1,58 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\NAU\\NAU_Financeiro_0.5\\",
+  "WorkspaceRootPath": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|h:\\nau\\nau_financeiro_0.5\\nau_financeiro_0.5\\notas_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\notas_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|H:\\NAU\\NAU_Financeiro_0.5\\nau_financeiro_0.5\\notas_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|c:\\users\\usu\u00E1rio\\desktop\\nau\\nau_financeiro_0.5\\nau_financeiro_0.5\\notas_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\notas_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|H:\\NAU\\NAU_Financeiro_0.5\\nau_financeiro_0.5\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|H:\\NAU\\NAU_Financeiro_0.5\\nau_financeiro_0.5\\apagar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\apagar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|H:\\NAU\\NAU_Financeiro_0.5\\nau_financeiro_0.5\\apagar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\apagar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|H:\\NAU\\NAU_Financeiro_0.5\\nau_financeiro_0.5\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|H:\\NAU\\NAU_Financeiro_0.5\\nau_financeiro_0.5\\nauclasses\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\nauclasses\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|H:\\NAU\\NAU_Financeiro_0.5\\nau_financeiro_0.5\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|H:\\NAU\\NAU_Financeiro_0.5\\nau_financeiro_0.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|H:\\NAU\\NAU_Financeiro_0.5\\nau_financeiro_0.5\\adicionar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\adicionar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|H:\\NAU\\NAU_Financeiro_0.5\\nau_financeiro_0.5\\adicionar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|c:\\users\\usu\u00E1rio\\desktop\\nau\\nau_financeiro_0.5\\nau_financeiro_0.5\\adicionar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\adicionar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|H:\\NAU\\NAU_Financeiro_0.5\\nau_financeiro_0.5\\atualizar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|c:\\users\\usu\u00E1rio\\desktop\\nau\\nau_financeiro_0.5\\nau_financeiro_0.5\\apagar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\apagar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|c:\\users\\usu\u00E1rio\\desktop\\nau\\nau_financeiro_0.5\\nau_financeiro_0.5\\atualizar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\atualizar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|c:\\users\\usu\u00E1rio\\desktop\\nau\\nau_financeiro_0.5\\nau_financeiro_0.5\\atualizar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\atualizar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|H:\\NAU\\NAU_Financeiro_0.5\\nau_financeiro_0.5\\atualizar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\atualizar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|c:\\users\\usu\u00E1rio\\desktop\\nau\\nau_financeiro_0.5\\nau_financeiro_0.5\\notas_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\notas_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|c:\\users\\usu\u00E1rio\\desktop\\nau\\nau_financeiro_0.5\\nau_financeiro_0.5\\apagar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\apagar_nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|c:\\users\\usu\u00E1rio\\desktop\\nau\\nau_financeiro_0.5\\nau_financeiro_0.5\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|c:\\users\\usu\u00E1rio\\desktop\\nau\\nau_financeiro_0.5\\nau_financeiro_0.5\\nauclasses\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\nauclasses\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|c:\\users\\usu\u00E1rio\\desktop\\nau\\nau_financeiro_0.5\\nau_financeiro_0.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|c:\\users\\usu\u00E1rio\\desktop\\nau\\nau_financeiro_0.5\\nau_financeiro_0.5\\naudataset3.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{9EC75EFA-62C1-4AA4-BC01-EBEADB703142}|NAU_Financeiro_0.5\\NAU_Financeiro_0.5.csproj|solutionrelative:nau_financeiro_0.5\\naudataset3.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,175 +54,148 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Notas_Main.cs [Design]",
-              "DocumentMoniker": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Notas_Main.cs",
-              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Notas_Main.cs",
-              "ToolTip": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Notas_Main.cs [Design]",
-              "RelativeToolTip": "NAU_Financeiro_0.5\\Notas_Main.cs [Design]",
+              "Title": "Adicionar_Nota.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Adicionar_Nota.cs",
+              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Adicionar_Nota.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Adicionar_Nota.cs [Design]",
+              "RelativeToolTip": "NAU_Financeiro_0.5\\Adicionar_Nota.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T17:37:07.519Z",
+              "WhenOpened": "2024-08-02T19:07:51.107Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Notas_Main.cs",
-              "DocumentMoniker": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Notas_Main.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Notas_Main.cs",
               "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Notas_Main.cs",
-              "ToolTip": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Notas_Main.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Notas_Main.cs",
               "RelativeToolTip": "NAU_Financeiro_0.5\\Notas_Main.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAADwv1AAAAAmAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAYwGQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T22:22:09.627Z",
+              "WhenOpened": "2024-08-02T21:23:31.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Atualizar_Nota.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Atualizar_Nota.cs",
+              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Atualizar_Nota.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Atualizar_Nota.cs",
+              "RelativeToolTip": "NAU_Financeiro_0.5\\Atualizar_Nota.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAkwEkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T21:31:43.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Login.cs",
-              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Login.cs",
-              "ToolTip": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Login.cs [Design]",
-              "RelativeToolTip": "NAU_Financeiro_0.5\\Login.cs [Design]",
+              "Title": "Apagar_Nota.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Apagar_Nota.cs",
+              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Apagar_Nota.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Apagar_Nota.cs [Design]",
+              "RelativeToolTip": "NAU_Financeiro_0.5\\Apagar_Nota.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T21:17:46.649Z",
+              "WhenOpened": "2024-08-02T21:29:52.104Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Apagar_Nota.cs [Design]",
-              "DocumentMoniker": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Apagar_Nota.cs",
-              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Apagar_Nota.cs",
-              "ToolTip": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Apagar_Nota.cs [Design]",
-              "RelativeToolTip": "NAU_Financeiro_0.5\\Apagar_Nota.cs [Design]",
+              "Title": "Atualizar_Nota.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Atualizar_Nota.cs",
+              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Atualizar_Nota.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Atualizar_Nota.cs [Design]",
+              "RelativeToolTip": "NAU_Financeiro_0.5\\Atualizar_Nota.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T20:52:53.626Z",
+              "WhenOpened": "2024-08-02T20:19:40.957Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Apagar_Nota.cs",
-              "DocumentMoniker": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Apagar_Nota.cs",
-              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Apagar_Nota.cs",
-              "ToolTip": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Apagar_Nota.cs",
-              "RelativeToolTip": "NAU_Financeiro_0.5\\Apagar_Nota.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAIwEUAAABZAAAA",
+              "DocumentIndex": 0,
+              "Title": "Notas_Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Notas_Main.cs",
+              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Notas_Main.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Notas_Main.cs [Design]",
+              "RelativeToolTip": "NAU_Financeiro_0.5\\Notas_Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T20:54:13.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T20:24:39.505Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.config",
-              "DocumentMoniker": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\App.config",
-              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\App.config",
-              "ToolTip": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\App.config",
-              "RelativeToolTip": "NAU_Financeiro_0.5\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-08-01T20:22:08.553Z",
+              "DocumentIndex": 6,
+              "Title": "Apagar_Nota.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Apagar_Nota.cs",
+              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Apagar_Nota.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Apagar_Nota.cs",
+              "RelativeToolTip": "NAU_Financeiro_0.5\\Apagar_Nota.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAkwF0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T20:13:59.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Login.cs",
-              "DocumentMoniker": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Login.cs",
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Login.cs",
               "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Login.cs",
-              "ToolTip": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Login.cs",
-              "RelativeToolTip": "NAU_Financeiro_0.5\\Login.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAUwCwAAAAsAAAA",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Login.cs [Design]",
+              "RelativeToolTip": "NAU_Financeiro_0.5\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T21:24:04.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Nota.cs",
-              "DocumentMoniker": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\nauClasses\\Nota.cs",
-              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\nauClasses\\Nota.cs",
-              "ToolTip": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\nauClasses\\Nota.cs",
-              "RelativeToolTip": "NAU_Financeiro_0.5\\nauClasses\\Nota.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAuwKoAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T16:19:39.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T20:31:05.124Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Program.cs",
-              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Program.cs",
-              "ToolTip": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Program.cs",
-              "RelativeToolTip": "NAU_Financeiro_0.5\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAyAAAA",
+              "Title": "Nota.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\nauClasses\\Nota.cs",
+              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\nauClasses\\Nota.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\nauClasses\\Nota.cs",
+              "RelativeToolTip": "NAU_Financeiro_0.5\\nauClasses\\Nota.cs",
+              "ViewState": "AQIAAPQAAAAAAAAAAAAUwAIBAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T17:32:03.854Z",
+              "WhenOpened": "2024-08-02T20:37:40.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1373292759:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NAUDataSet3.xsd",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\NAUDataSet3.xsd",
+              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\NAUDataSet3.xsd",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\NAUDataSet3.xsd",
+              "RelativeToolTip": "NAU_Financeiro_0.5\\NAUDataSet3.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-08-02T20:54:20.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Adicionar_Nota.cs",
-              "DocumentMoniker": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Adicionar_Nota.cs",
-              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Adicionar_Nota.cs",
-              "ToolTip": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Adicionar_Nota.cs",
-              "RelativeToolTip": "NAU_Financeiro_0.5\\Adicionar_Nota.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAQwCMAAAAMAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Program.cs",
+              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Program.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Desktop\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Program.cs",
+              "RelativeToolTip": "NAU_Financeiro_0.5\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T02:48:49.777Z",
+              "WhenOpened": "2024-08-02T19:07:54.02Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Adicionar_Nota.cs [Design]",
-              "DocumentMoniker": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Adicionar_Nota.cs",
-              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Adicionar_Nota.cs",
-              "ToolTip": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Adicionar_Nota.cs [Design]",
-              "RelativeToolTip": "NAU_Financeiro_0.5\\Adicionar_Nota.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T15:57:29.495Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Atualizar_Nota.cs",
-              "DocumentMoniker": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Atualizar_Nota.cs",
-              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Atualizar_Nota.cs",
-              "ToolTip": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Atualizar_Nota.cs",
-              "RelativeToolTip": "NAU_Financeiro_0.5\\Atualizar_Nota.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAiwEQAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T18:21:13.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Atualizar_Nota.cs [Design]",
-              "DocumentMoniker": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Atualizar_Nota.cs",
-              "RelativeDocumentMoniker": "NAU_Financeiro_0.5\\Atualizar_Nota.cs",
-              "ToolTip": "H:\\NAU\\NAU_Financeiro_0.5\\NAU_Financeiro_0.5\\Atualizar_Nota.cs [Design]",
-              "RelativeToolTip": "NAU_Financeiro_0.5\\Atualizar_Nota.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T18:18:10.522Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

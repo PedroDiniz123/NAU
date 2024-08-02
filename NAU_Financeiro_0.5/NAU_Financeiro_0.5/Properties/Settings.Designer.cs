@@ -26,11 +26,21 @@ namespace NAU_Financeiro_0._5.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PEDRO;Initial Catalog=NAU_Financeiro;Integrated Security=True;TrustSe" +
-            "rverCertificate=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=Pedro;Initial Catalog=NAU;Integrated Security=True;")]
         public string NAU_FinanceiroConnectionString {
             get {
                 return ((string)(this["NAU_FinanceiroConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=Pedro;Initial Catalog=NAU;Persist Security Info=True;User ID=MASTER;P" +
+            "assword=K25LM;TrustServerCertificate=True")]
+        public string NAUConnectionString {
+            get {
+                return ((string)(this["NAUConnectionString"]));
             }
         }
     }

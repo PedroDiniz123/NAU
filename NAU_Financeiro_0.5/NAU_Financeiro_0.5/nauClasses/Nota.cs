@@ -22,11 +22,17 @@ namespace NAU_Financeiro_0._5.nauClasses
         // Prop
         public int Id { get; set; }
 
+        public int Numero { get; set; }
+
         public SqlDateTime Data { get; set; }
 
         public string Razao { get; set; }
 
         public string Setor { get; set; }
+
+        public string Complemento { get; set; }
+
+        public string Tipo { get; set; }
 
         public string Valor { get; set; }
 
@@ -42,7 +48,7 @@ namespace NAU_Financeiro_0._5.nauClasses
             try
             {
                 //Step 2: Writing SQL Query
-                string sql = "SELECT * FROM TabelaNotas";
+                string sql = "SELECT * FROM Notas";
                 //Creating cmd using sql and conn
                 SqlCommand cmd = new SqlCommand(sql, sqlConnection);
                 //Creating SQL DataAdapter using cmd
@@ -75,7 +81,7 @@ namespace NAU_Financeiro_0._5.nauClasses
                 {
 
                     //STep 2: Create a SQL Query to insert Data
-                    string sql = String.Format("INSERT INTO TabelaNotas (data, razao, setor, valor) VALUES (@data, @razao, @setor, @valor)");
+                    string sql = String.Format("INSERT INTO Notas (data, razao, setor, complemento, tipo, numero, valor) VALUES (@data, @razao, @setor, @complemento, @tipo, @numero, @valor)");
 
                     //Creating SQL Command using sql and conn
                     SqlCommand cmd = new SqlCommand(sql, sqlConnection);
@@ -85,8 +91,11 @@ namespace NAU_Financeiro_0._5.nauClasses
                     cmd.Parameters.AddWithValue("@data", nota.Data);
                     cmd.Parameters.AddWithValue("@razao", nota.Razao);
                     cmd.Parameters.AddWithValue("@setor", nota.Setor);
+                    cmd.Parameters.AddWithValue("@complemento", nota.Complemento);
+                    cmd.Parameters.AddWithValue("@tipo", nota.Tipo);
+                    cmd.Parameters.AddWithValue("@numero", nota.Numero);
                     cmd.Parameters.AddWithValue("@valor", nota.Valor);
-                    
+
 
                     //Connection Open Here
                     sqlConnection.Open();
@@ -123,7 +132,7 @@ namespace NAU_Financeiro_0._5.nauClasses
             try
             {
                 //SQL to update data in our Database
-                string sql = "UPDATE TabelaNotas SET data=@data, razao=@razao, setor=@setor, valor=@valor WHERE id=@id";
+                string sql = "UPDATE Notas SET data=@data, razao=@razao, setor=@setor, valor=@valor, complemento=@complemento, tipo=@tipo, numero=@numero WHERE id=@id";
 
                 //Creating SQL Command
                 SqlCommand cmd = new SqlCommand(sql, sqlConnection);
@@ -131,6 +140,9 @@ namespace NAU_Financeiro_0._5.nauClasses
                 cmd.Parameters.AddWithValue("@data", nota.Data);
                 cmd.Parameters.AddWithValue("@razao", nota.Razao);
                 cmd.Parameters.AddWithValue("@setor", nota.Setor);
+                cmd.Parameters.AddWithValue("@complemento", nota.Complemento);
+                cmd.Parameters.AddWithValue("@tipo", nota.Tipo);
+                cmd.Parameters.AddWithValue("@numero", nota.Numero);
                 cmd.Parameters.AddWithValue("@valor", nota.Valor);
                 cmd.Parameters.AddWithValue("@id", nota.Id);
                 //Open DAtabase Connection
@@ -168,7 +180,7 @@ namespace NAU_Financeiro_0._5.nauClasses
             try
             {
                 //SQL To Delte DAta
-                string sql = "DELETE FROM TabelaNotas WHERE id=@id";
+                string sql = "DELETE FROM Notas WHERE id=@id";
 
                 //Creating SQL Command
                 SqlCommand cmd = new SqlCommand(sql, conn);
@@ -209,7 +221,7 @@ namespace NAU_Financeiro_0._5.nauClasses
             try
             {
                 //SQL To Delte DAta
-                string sql = "SELECT data, razao, setor, valor FROM TabelaNotas WHERE id=@id";
+                string sql = "SELECT data, razao, setor, complemento, tipo, numero, valor FROM Notas WHERE id=@id";
 
                 //Creating SQL Command
                 SqlCommand cmd = new SqlCommand(sql, conn);
@@ -242,8 +254,11 @@ namespace NAU_Financeiro_0._5.nauClasses
             nota.Data = ((DateTime) dataRecord[0]);
             nota.Razao = ((string) dataRecord[1]);
             nota.Setor = ((string) dataRecord[2]);
+            nota.Complemento = ((string) dataRecord[3]);
+            nota.Tipo = ((string) dataRecord[4]);
+            nota.Numero = ((int) dataRecord[5]);
             
-            nota.Valor = (Convert.ToString(dataRecord[3]));
+            nota.Valor = (Convert.ToString(dataRecord[6]));
 
         }
 
