@@ -26,15 +26,27 @@ namespace NAU_Financeiro_0._5
         DataTable dt;
         static string myconnstrng = ConfigurationManager.ConnectionStrings["NAU_Financeiro_0._5.Properties.Settings.NAU_FinanceiroConnectionString"].ConnectionString;
 
+        DateTime dataInicial;
+        DateTime dataFinal;
+
         private void Notas_Main_Load(object sender, EventArgs e)
         {
-            //Load Data on Data GRidview
-            DataTable dt = nota.Select();
-            NotasView.DataSource = dt;
+            // TODO: esta linha de código carrega dados na tabela 'nAUDataSet1.TabelaNotas'. Você pode movê-la ou removê-la conforme necessário.
+            this.tabelaNotasTableAdapter.Fill(this.nAUDataSet1.TabelaNotas);
+           
 
-            object sumObject;
-            sumObject = dt.Compute("Sum(valor)", string.Empty);
-            lblSoma.Text = sumObject.ToString();
+            dataInicial = DataInicial.Value;
+            dataFinal = DataFinal.Value;
+
+            try
+            {
+                object sumObject;
+                sumObject = this.tabelaNotasTableAdapter.GetData().Compute("Sum(valor)", string.Empty);
+                lblSoma.Text = sumObject.ToString();
+            } catch (Exception exception)
+            {
+
+            }
         }
 
         private void BtnNova_Click(object sender, EventArgs e)
@@ -48,11 +60,41 @@ namespace NAU_Financeiro_0._5
 
         private void AtualizarTabela()
         {
-            dt = nota.Select();
-            NotasView.DataSource = dt;
-            object sumObject;
-            sumObject = dt.Compute("Sum(valor)", string.Empty);
-            lblSoma.Text = sumObject.ToString();
+            // string command = "SELECT * FROM TabelaNotas WHERE razao LIKE '%" + keyword + "%' OR setor LIKE '%" + keyword + "%';
+
+            //if (EntradaPesquisar.Text != "")
+            //{
+            //    string keyword = EntradaPesquisar.Text;
+            //    command = command + " AND ()";
+            //}
+
+
+            // SqlConnection conn = new SqlConnection(myconnstrng);
+            // SqlDataAdapter sda = new SqlDataAdapter(command, conn);
+            // DataTable dt = new DataTable();
+            this.tabelaNotasTableAdapter.Fill(this.nAUDataSet1.TabelaNotas);
+
+
+            BindingSource bs = new BindingSource();
+            bs.DataSource = NotasView.DataSource;
+            bs.Filter = string.Format("CONVERT(" + NotasView.Columns[2].DataPropertyName + ", System.String) like ' % " + EntradaPesquisar.Text.Replace("'", "''") + "%'CONVERT(" + NotasView.Columns[2].DataPropertyName + ", System.String) like '%" + EntradaPesquisar.Text.Replace("'", "''") + "%' or CONVERT(" + NotasView.Columns[3].DataPropertyName + ", System.String) like '%" + EntradaPesquisar.Text.Replace("'", "''") + "%'");
+            NotasView.DataSource = bs;
+
+            try
+            {
+                int total = NotasView.Rows.Cast<DataGridViewRow>()
+                .Sum(t => Convert.ToInt32(t.Cells[4].Value));
+                lblSoma.Text = total.ToString();
+            }
+            catch (Exception exception)
+            {
+
+            }
+
+            //object sumObject;
+            //sumObject = dt.Compute("Sum(valor)", string.Empty);
+            //lblSoma.Text = sumObject.ToString();
+
         }
 
         private void BtnAtualizar_Click(object sender, EventArgs e)
@@ -71,19 +113,50 @@ namespace NAU_Financeiro_0._5
 
         private void EntradaPesquisar_TextChanged(object sender, EventArgs e)
         {
-            string keyword = EntradaPesquisar.Text;
-            SqlConnection conn = new SqlConnection(myconnstrng);
-            SqlDataAdapter sda = new SqlDataAdapter("SELECT * FROM TabelaNotas WHERE razao LIKE '%" + keyword + "%' OR setor LIKE '%" + keyword + "%'", conn);
-            DataTable dt = new DataTable();
-            dt = new DataTable();
-            sda.Fill(dt);
-            NotasView.DataSource = dt;
-            object sumObject;
-            sumObject = dt.Compute("Sum(valor)", string.Empty);
-            lblSoma.Text = sumObject.ToString();
+            AtualizarTabela();
+        }
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void DataInicial_ValueChanged(object sender, EventArgs e)
+        {
+            dataInicial = DataInicial.Value;
+            dataFinal = DataFinal.Value;
+
+            if (dataInicial > dataFinal)
+            {
+                MessageBox.Show("Nota inicial maior que a final");
+                DataInicial.Value = dataFinal;
+            }
+            AtualizarTabela();
+        }
+
+        private void DataFinal_ValueChanged(object sender, EventArgs e)
+        {
+            dataInicial = DataInicial.Value;
+            dataFinal = DataFinal.Value;
+
+            if (dataInicial > dataFinal)
+            {
+                MessageBox.Show("Nota inicial maior que a final");
+                DataInicial.Value = dataFinal;
+            }
+            AtualizarTabela();
+        }
+
+        private void NotasView_SortStringChanged(object sender, EventArgs e)
+        {
+            this.tabelaNotasBindingSource.Sort = this.NotasView.SortString;
+        }
+
+        private void NotasView_FilterStringChanged(object sender, EventArgs e)
+        {
+            this.tabelaNotasBindingSource.Filter = this.NotasView.FilterString;
+        }
+
+        private void tabelaNotasBindingSource_ListChanged(object sender, ListChangedEventArgs e)
         {
 
         }

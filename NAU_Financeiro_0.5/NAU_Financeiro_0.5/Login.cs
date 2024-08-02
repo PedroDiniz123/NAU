@@ -42,9 +42,7 @@ namespace NAU_Financeiro_0._5
                     senha = entradaSenha.Text;
 
                     Notas_Main notas_Main = new Notas_Main(usuario);
-                    notas_Main.Show();
-
-                    this.Hide();
+                    notas_Main.ShowDialog();
                 } 
                 else
                 {

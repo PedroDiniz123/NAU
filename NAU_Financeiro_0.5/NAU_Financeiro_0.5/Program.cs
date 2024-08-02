@@ -16,7 +16,7 @@ namespace NAU_Financeiro_0._5
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Application.Run(new Notas_Main("MASTER"));
         }
     }
 }
